@@ -57,4 +57,6 @@ I focus on:
 
 ## 📫 Contact
 
-GitHub: https://github.com/k-borowiak
+- [GitHub](https://github.com/k-borowiak)
+- [LinkedIn](https://www.linkedin.com/in/karol-borowiak-810425236/)
+
