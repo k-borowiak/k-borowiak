@@ -1,40 +1,60 @@
 # Hi 👋 I'm Karol
 
-I build practical projects around Python automation, Docker, and cloud/devops basics.
+I build practical automation tools and data workflows using Python, Docker, and cloud technologies.
 
-Right now I'm mostly focused on learning by building — creating small tools, improving setup and documentation, and making things easier to run again later.
+My focus is on turning real-world problems into simple, reproducible systems — from data collection and processing to containerized execution and cloud-ready architecture.
 
-## 🧰 What I work with
-- Python — automation scripts, CLI tools, data processing
-- Docker, Git, GitHub Actions
-- AWS — EC2, Lambda, IAM, VPC, S3, CloudWatch
-- Linux, networking, troubleshooting
+---
+
+## 🧰 Tech I work with
+
+* **Python** — automation, data processing, CLI tools
+* **Docker, Git, GitHub Actions** — packaging and CI/CD
+* **AWS** — EC2, Lambda, IAM, VPC, S3, CloudWatch
+* **Linux, networking, troubleshooting**
+
+---
 
 ## 🚀 Highlighted Project
-### ZwiftPower → Excel Updater
-**Repo:** `zwiftpower-excel-updater`
 
-A Python tool that automates collecting rider data from ZwiftPower profiles and updates a team Excel file with:
+### ZwiftPower Rider Data Pipeline
 
-- weight
-- zFTP
-- power data (15s / 1min / 5min / 20min)
+Repo: https://github.com/k-borowiak/zwiftpower-excel-updater
 
-I built it to reduce repetitive manual work and make team management easier for captains.
+A Python-based data pipeline that automates collecting rider performance data from ZwiftPower and transforms it into a structured dataset for team management.
 
-## 🔍 What this project shows
-- practical Python automation
-- working with Selenium and dynamic web pages
-- Excel file processing with structured output
-- configuration via `.env`
-- clear setup and documentation
-- early work on Docker-based packaging
+The system:
 
-## 🧩 How I Work
-I usually start with a real problem and build the smallest useful version first.
-Then I improve it step by step.
+* logs in via Zwift SSO
+* extracts rider data from dynamic pages
+* processes and normalizes results
+* exports a clean dataset (Excel, with cloud-ready design)
 
-I like practical tools more than demo-only projects, and I try to keep setup, usage, and troubleshooting clear in every repo.
+---
+
+## 🔍 What this project demonstrates
+
+* building automation around real-world workflows
+* working with dynamic web data (Selenium + parsing)
+* designing simple data pipelines (ingestion → processing → output)
+* containerizing applications with Docker
+* setting up CI workflows (GitHub Actions)
+* preparing systems for cloud execution (AWS-oriented design)
+
+---
+
+## 🧩 How I work
+
+I start from a real problem and build a minimal working solution, then iterate on it — improving structure, reliability, and deployment.
+
+I focus on:
+
+* clarity over complexity
+* reproducibility (Docker, config)
+* making systems easy to run and extend
+
+---
 
 ## 📫 Contact
-- **GitHub:** https://github.com/k-borowiak
+
+GitHub: https://github.com/k-borowiak
