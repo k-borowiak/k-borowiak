@@ -1,83 +1,82 @@
-# Hi 👋 I'm Karol
+# Hi 👋 I’m Karol
 
-I build practical automation tools, backend workflows, and data pipelines using Python, Docker, and cloud technologies.
+I build **practical backend tools and automation** using Python, Docker, and cloud technologies.
 
-My focus is on turning real-world problems into simple, reproducible systems — from data collection and processing to containerized execution and deployment-oriented design.
+I enjoy turning real-world problems into **simple, reliable systems** — from data collection and processing to containerized execution and cloud‑ready design.  
+Most of my work starts with a concrete need and grows into something reusable and well‑structured.
 
 ---
 
 ## 🧰 Tech I work with
 
-* **Python** — automation, data processing, CLI tools
-* **Docker, Git, GitHub Actions** — packaging, CI/CD, reproducible workflows
-* **AWS** — EC2, Lambda, IAM, VPC, S3, CloudWatch
-* **Terraform** — infrastructure as code for cloud environments
-* **Linux, networking, troubleshooting**
+* **Python** — automation, data collection (pandas), data processing, backend utilities, CLI tools  
+* **Docker, Git, GitHub Actions** — containerization, CI/CD, reproducible setups  
+* **AWS** — EC2, Lambda, S3, IAM, VPC, CloudWatch  
+* **Linux & networking** — deployment, debugging, troubleshooting  
 
 ---
 
-## 🚀 Highlighted Projects
+## 🚀 Selected Projects
 
-### Training Analyzer
-
+### Training Analyzer  
 Repo: https://github.com/k-borowiak/training-analyzer
 
-A backend system for collecting, storing, and analyzing endurance training data from external fitness platforms, starting with Strava.
+A backend system for **collecting and analyzing endurance training data**, starting with Strava.
 
-The system is designed as a modular pipeline that:
+The project focuses on building a clean and extensible backend that:
 
-* ingests training data via OAuth-based integrations
-* supports incremental sync and historical backfill
-* stores raw activity data and computes training metrics
-* uses background jobs for processing and prioritization
-* adds an AI layer for contextual training insights
+* connects to external fitness platforms using OAuth
+* synchronizes activities incrementally and supports historical imports
+* stores raw training data and calculates key performance metrics
+* processes data asynchronously in the background
+* prepares the ground for AI‑assisted training insights
 
-This project is mainly about system design, data flow, and building a structure that can grow into a cloud-deployed backend service.
+This project is less about flashy features and more about **solid backend architecture**, data flow, and a design that can evolve into a cloud‑deployed service.
 
 ---
 
-### ZwiftPower Rider Data Pipeline
-
+### ZwiftPower Rider Data Tool  
 Repo: https://github.com/k-borowiak/zwiftpower-excel-updater
 
-A Python-based data pipeline that automates collecting rider performance data from ZwiftPower and transforms it into a structured dataset for team management.
+A Python tool that **automates collecting rider performance data from ZwiftPower** and turns it into a structured dataset for team management.
 
-The system:
+It:
 
 * logs in via Zwift SSO
-* extracts rider data from dynamic pages
-* processes and normalizes results
-* exports a clean dataset to Excel
+* extracts rider data from dynamic web pages
+* cleans and normalizes results
+* exports ready‑to‑use data to Excel
 
-This project started from a practical workflow and turned into a reusable automation tool with a structure that can be extended further.
+What started as a manual, repetitive task became a **reliable automation tool** that can be reused and extended.
 
 ---
 
-## 🔍 What these projects demonstrate
+## 🔍 What these projects show
 
-* building automation around real-world workflows
-* working with external services and dynamic web data
-* designing data pipelines (ingestion → processing → output)
-* separating collection, processing, and analysis into clear layers
-* containerizing applications with Docker
-* setting up CI workflows with GitHub Actions
-* building systems with AWS deployment and cloud infrastructure in mind
+* solving real problems with automation
+* working with external APIs and dynamic web data
+* designing backend workflows for data collection and processing
+* separating responsibilities (data intake, logic, output)
+* using Docker for consistent, repeatable environments
+* setting up CI with GitHub Actions
+* thinking ahead about AWS deployment and scalability
 
 ---
 
 ## 🧩 How I work
 
-I usually start from a real problem and build a minimal working solution first, then improve the structure, reliability, and deployment path step by step.
+I usually start with the **simplest working solution**, then improve structure, reliability, and deployment step by step.
 
-I focus on:
+I care about:
 
-* clarity over complexity
-* reproducibility (Docker, config, repeatable runs)
-* building systems that are easy to run, extend, and move toward cloud environments
+* simple and understandable solutions  
+* tools that are easy to run, debug, and maintain  
+* reproducible setups (Docker, configuration, scripts)  
+* building software designed for real use, not just demos   
 
 ---
 
 ## 📫 Contact
 
-- [GitHub](https://github.com/k-borowiak)
-- [LinkedIn](https://www.linkedin.com/in/karol-borowiak-810425236/)
+- GitHub: https://github.com/k-borowiak  
+- LinkedIn: https://www.linkedin.com/in/karol-borowiak-810425236/
